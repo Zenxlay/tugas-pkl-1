@@ -2,10 +2,48 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-body {
-    background-image: url(yes.jpg);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(yes.jpeg);
     background-size: cover;
-}
-
+  }
+  .wadah {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 370px;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  
+  .wadah .kartu {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background: rgb(238, 238, 238);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wadah .kartu .isi {
+    margin-top: 50px;
+  }
+  
+  .judul {
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+  }
+  
+  ul li {
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
